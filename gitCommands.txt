@@ -17,3 +17,9 @@ add command needs to be run everytime a file is modified and the
 changes needs to be saved to the staging area.
 
 echo world >> file1.txt ---> append "world" to file1.txt
+git commit -m "Initial commit."
+
+Best practices: 
+1. Commits should not be too small(everytime updating the 
+file and then commit) and not too large(implementing 
+everything and then commit).
