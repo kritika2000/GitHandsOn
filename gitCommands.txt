@@ -1,0 +1,19 @@
+Initialize a repository(.git) -> git init
+.git is hidden.
+
+open .git -> to open .git repository(info related to project history is stored here)
+rm -rf .git ->  to remove .git repo.
+
+echo hello > file1.txt --> creates a new file with content "hello".
+git status -> The git status command is used to display the 
+state of the repository and staging area. It
+allows us to see the tracked, untracked files and changes.
+
+git add file1.txt file2.txt ->  add both files to the staging area.
+git add *.txt -> add all(.txt) uncommitted files to the staging area.
+git add . -> for all files.
+
+add command needs to be run everytime a file is modified and the 
+changes needs to be saved to the staging area.
+
+echo world >> file1.txt ---> append "world" to file1.txt
