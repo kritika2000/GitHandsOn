@@ -21,6 +21,7 @@ git commit -m "Initial commit."
 git commit -am "Fix the bug" -> skip the staging area.
 git ls-files -> returns files in the staging area.(even if 
 a file is removed from the working directory).
+git mv main.js file1.js -> rename a file
 
 Best practices: 
 1. Commits should not be too small(everytime updating the 
@@ -29,3 +30,4 @@ everything and then commit).
 2. Each commit should represent logically separated change set.
 
 mv file1.txt main.js -> rename a file.
+Ignore files in Git -> echo logs/ > .gitignore(added logs/ directory to .gitignore)
